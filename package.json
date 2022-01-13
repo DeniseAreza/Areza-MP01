@@ -1,0 +1,22 @@
+{
+  "name": "areza-mp01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeniseAreza/Areza-MP01.git"
+  },
+  "author": "Denise Ysabelle Areza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeniseAreza/Areza-MP01/issues"
+  },
+  "homepage": "https://github.com/DeniseAreza/Areza-MP01#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

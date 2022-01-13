@@ -1,0 +1,64 @@
+$theme-colors: (
+  "primary": #4A3329,
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// * Scroll behavior
+html{
+    scroll-behavior: smooth;
+    background-color: #fefefe;
+  }
+// * Scroll behavior
+
+// * Loader: For smooth animation after loading
+  .animate {
+    position: relative;
+    -webkit-animation-name: animate;
+    -webkit-animation-duration: 1s;
+    animation-name: animate;
+    animation-duration: 1s;
+  }
+  
+  @-webkit-keyframes animate {
+    from {
+      bottom: -100px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0px;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes animate {
+    from {
+      bottom: -100px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+  // * Loader: For smooth animation after loading
+#Coffee1 {
+    border-radius: 25px;
+    border: 2px solid #4A3329;
+    height: 100%; 
+    width: 50%;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#Coffee2 {
+    border-radius: 25px;
+    border: 2px solid #4A3329;
+    height: 100%; 
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#Coffee1:hover{opacity: 1;}
+#Coffee2:hover{opacity: 1;}

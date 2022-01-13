@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="/bundles/Coffee.png">
+    <link rel="stylesheet" href="/main.css">
+    <script defer src="/javaScripts/loader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>CoffeeFave</title>
+</head>
+<body onload="loader()">
+    <!--* Loader -->
+    <div class="d-flex justify-content-center">
+        <div class="spinner-grow text-primary mt-5" role="status" id="loader" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!--* Loader -->
+
+    <!-- ! Main body of the website -->
+    <div style="display:none;" id="allContent" class="animate" >
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #fefefe;">
+            <a class="navbar-brand" href="#">CoffeeFave</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/_mainPage.html">Home</a>
+                <a class="nav-item nav-link active" href="/html/_museum.html">Museum</a>
+                <a class="nav-item nav-link" href="#">Coffee Recipes</a>
+              </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid m-5">
+            <div class="container">
+              <h1 class="display-4">Welcome to the Museum!</h1>
+              <p class="lead">This is where I will talk about my favorite drinks, my paintings that you could view, and some coffee recipes that you can try at home.
+              So, now, here are my favorite drinks :)</p>
+            </div>
+        </div>
+        <!-- Jumbotron -->
+
+        <!-- Fave drinks block -->
+        <div class="container m-5 mx-auto d-block" style="border-radius: 25px;border: 10px solid #4A3329;">
+            <div class="row m-5">
+                <div class="col">
+                    <img src="/bundles/Iced Coffee.png" alt="" class="mx-auto d-block" id="Coffee1">
+                </div>
+                <div class="col">
+                    <h1 class="display-4" style="float: left;">Iced Coffee with Chocolate</h1>
+                    <p class="font-weight-bold">Short Description:</p>
+                </div>
+              </div>
+        </div>
+
+        <div class="container m-5 mx-auto d-block" style="border-radius: 25px;border: 10px solid #4A3329;">
+            <div class="row m-5">
+                <div class="col">
+                    <img src="/bundles/Coffee.png" alt="" class="mx-auto d-block" id="Coffee2">
+                </div>
+                <div class="col">
+                    <h1 class="display-4" style="float: left;">Creamy Coffee Float</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vero saepe repellat explicabo placeat nostrum, fugiat, quasi unde, voluptas ea eveniet. Minus, tenetur doloribus voluptate adipisci assumenda saepe harum impedit?</p>
+                </div>
+              </div>
+        </div>
+        <!-- Fave drinks block -->
+    </div>
+    <!-- ! Main body of the website -->
+    
+</body>
+</html>
