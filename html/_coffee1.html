@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="/bundles/Coffee.png">
+    <link rel="stylesheet" href="/main.css">
+    <script defer src="/javaScripts/loader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>CoffeeFave</title>
+</head>
+<body onload="loader()">
+    <!--* Loader -->
+    <div class="d-flex justify-content-center">
+        <div class="spinner-grow text-primary mt-5" role="status" id="loader" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!--* Loader -->
+
+    <!-- ! Main body of the website -->
+    <div style="display:none;" id="allContent" class="animate" >
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #fefefe;">
+            <a class="navbar-brand" href="#">CoffeeFave</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/_mainPage.html">Home</a>
+                <a class="nav-item nav-link" href="/html/_museum.html">Museum</a>
+                <a class="nav-item nav-link active" href="/html/_coffeeRecipes.html">Coffee Recipes</a>
+              </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid m-5">
+            <div class="container">
+              <h1 class="display-4 text-center">The French Cafe au Lai</h1>
+            </div>
+        </div>
+
+        <div>
+            <img src="/bundles/coffee1.png" class="rounded mx-auto d-block" alt="..." style="border-radius: 25px; border: 2px solid #4A3329;">
+        </div>
+        <!-- Jumbotron -->
+
+        <!-- Coffee block -->
+        <div class="card m-5">
+          <div class="card-body">
+            <h1 class="display-4">Ingredients</h1>
+            <ul>
+              <li>
+                1 part hot strong coffee, French roast
+              </li>
+              <li>
+                1 part milk, steamed
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card m-5">
+          <div class="card-body">
+            <h1 class="display-4">Instructions</h1>
+            <ol>
+              <li>
+                Gather the ingredients.
+              </li>
+              <li>
+                Into a large cup, pour equal parts of strong hot coffee and steamed milk, reserving the foam.
+              </li>
+              <li>
+                Stir.
+              </li>
+              <li>
+                Spoon reserved foam on top and serve hot.
+              </li>
+              <li>
+                If you're artistic, you might want to try your hand at using the steamed milk to create latte art, or simply give it a sprinkle of cinnamon.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <!-- Coffee block -->
+    </div>
+    <!-- ! Main body of the website -->
+    
+</body>
+</html>

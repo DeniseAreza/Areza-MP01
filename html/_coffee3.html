@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="/bundles/Coffee.png">
+    <link rel="stylesheet" href="/main.css">
+    <script defer src="/javaScripts/loader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>CoffeeFave</title>
+</head>
+<body onload="loader()">
+    <!--* Loader -->
+    <div class="d-flex justify-content-center">
+        <div class="spinner-grow text-primary mt-5" role="status" id="loader" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!--* Loader -->
+
+    <!-- ! Main body of the website -->
+    <div style="display:none;" id="allContent" class="animate" >
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #fefefe;">
+            <a class="navbar-brand" href="#">CoffeeFave</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/_mainPage.html">Home</a>
+                <a class="nav-item nav-link" href="/html/_museum.html">Museum</a>
+                <a class="nav-item nav-link active" href="/html/_coffeeRecipes.html">Coffee Recipes</a>
+              </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid m-5">
+            <div class="container">
+              <h1 class="display-4 text-center">Cuban Coffee (Cafecito)</h1>
+            </div>
+        </div>
+
+        <div>
+            <img src="/bundles/coffee3.png" class="rounded mx-auto d-block" alt="..." style="border-radius: 25px; border: 2px solid #4A3329;">
+        </div>
+        <!-- Jumbotron -->
+
+        <!-- Coffee block -->
+        <div class="card m-5">
+          <div class="card-body">
+            <h1 class="display-4">Ingredients</h1>
+            <ul>
+              <li>
+                1/4 cup finely ground coffee, or amount needed for pot
+              </li>
+              <li>
+                1 1/2 cups water, or amount needed for pot
+              </li>
+              <li>
+                1/4 cup granulated sugar
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card m-5">
+          <div class="card-body">
+            <h1 class="display-4">Instructions</h1>
+            <ol>
+              <li>
+                Gather the ingredients.
+              </li>
+              <li>
+                In a large stovetop espresso maker, brew coffee according to the manufacturer's instructions using fine-ground coffee.
+              </li>
+              <li>
+                In a glass measuring cup with at least 2 cup capacity, add the sugar. Once a little bit of coffee has brewed, add about 1 tablespoon to the sugar. Reserve a little extra coffee concentrate in a small dish to use if needed. Place the pot back on the stove to finish brewing.
+              </li>
+              <li>
+                Make the espuma by using a small whisk or spoon to vigorously beat the sugar and espresso until it is a pale brown, almost foamy paste, about 2 to 3 minutes. You cannot beat it too much.
+              </li>
+              <li>
+                When the coffee has finished brewing, pour it over the espuma while stirring to incorporate. Let the foamy crema rise to the top.
+              </li>
+              <li>
+                Pour into individual demitasse espresso cups. Shake the measuring cup a little and use a spoon as you pour to get crema into each cup.
+              </li>
+              <li>
+                Serve and enjoy.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <!-- Coffee block -->
+    </div>
+    <!-- ! Main body of the website -->
+    
+</body>
+</html>

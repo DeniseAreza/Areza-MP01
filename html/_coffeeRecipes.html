@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="/bundles/Coffee.png">
+    <link rel="stylesheet" href="/main.css">
+    <script defer src="/javaScripts/loader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>CoffeeFave</title>
+</head>
+<body onload="loader()">
+    <!--* Loader -->
+    <div class="d-flex justify-content-center">
+        <div class="spinner-grow text-primary mt-5" role="status" id="loader" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!--* Loader -->
+
+    <!-- ! Main body of the website -->
+    <div style="display:none;" id="allContent" class="animate" >
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #fefefe;">
+            <a class="navbar-brand" href="#">CoffeeFave</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/_mainPage.html">Home</a>
+                <a class="nav-item nav-link" href="/html/_museum.html">Museum</a>
+                <a class="nav-item nav-link active" href="/html/_coffeeRecipes.html">Coffee Recipes</a>
+              </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid m-5">
+            <div class="container">
+              <h1 class="display-4">3 Coffee Recipes that let you be you own barista!</h1>
+              <p class="lead">Do you love coffee drinks, but you do not want to spend so much money for it? Good news! Here are
+                  some coffee recipes that you can try at home with your friends. :)
+              </p>
+            </div>
+        </div>
+        <!-- Jumbotron -->
+
+        <!-- Coffee block -->
+        <div class="container m-5 mx-auto d-block">
+            <div class="row m-5">
+                <div class="col">
+                    <img src="/bundles/coffee1.png" alt="" class="mx-auto d-block" id="fade2">
+                </div>
+                <div class="col">
+                    <div>
+                        <h1 class="display-4" style="float: left;">The French Cafe au Lait</h1>
+                    </div>
+    
+                    <div>
+                        <p>A bistro-style cafe au lait is oh-so-French and a fantastic way to greet a chilly morning. Make it with equal parts steamed milk and strong hot coffee, for an easy, elegant breakfast with flaky croissants.
+                             Or enjoy it as they do at sidewalk cafes in Paris: as an afternoon treat with a square of dark chocolate.</p>
+                    </div>
+
+                    <div>
+                        <a href="/html/_coffee1.html"><button type="button" class="btn btn-primary">See Recipe</button></a>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="container m-5 mx-auto d-block">
+            <div class="row m-5">
+                <div class="col">
+                    <img src="/bundles/coffee2.png" alt="" class="mx-auto d-block" id="fade2">
+                </div>
+                <div class="col">
+                    <h1 class="display-4" style="float: left;">Pour-Over Black Coffee</h1>
+                    <div>
+                        <p>Pour-over coffee is a nostalgic brewing method that produces produces a rich, flavorful cup of coffee.
+                         While it does require precision of measurements and brewing times, you need nothing but regular coffee grinds and water to achieve the ideal cup.</p>
+                    </div>
+                    <div>
+                        <a href="/html/_coffee2.html"><button type="button" class="btn btn-primary">See Recipe</button></a>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="container m-5 mx-auto d-block">
+            <div class="row m-5">
+                <div class="col">
+                    <img src="/bundles/coffee3.png" alt="" class="mx-auto d-block" id="fade2">
+                </div>
+                <div class="col">
+                    <h1 class="display-4" style="float: left;">Cuban Coffee (Cafecito)</h1>
+                    <div>
+                        <p>Cuban coffee is a sweet, rich, delicious hot beverage. Traditionally served after-dinner, it makes a great, dairy-free alternative to ice cream after a meal. You make it by topping potent shots of espresso with a thick layer of foamy crema made with sugar, instead of milk.</p>
+                    </div>
+                    <div>
+                        <a href="/html/_coffee3.html"><button type="button" class="btn btn-primary" href="">See Recipe</button></a>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        <!-- Coffee block -->
+    </div>
+    <!-- ! Main body of the website -->
+    
+</body>
+</html>

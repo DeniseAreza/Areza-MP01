@@ -11117,7 +11117,7 @@ html {
   }
 }
 
-#Coffee1 {
+#fade1 {
   border-radius: 25px;
   border: 2px solid #4A3329;
   height: 100%;
@@ -11127,7 +11127,7 @@ html {
   transition: 0.3s;
 }
 
-#Coffee2 {
+#fade2 {
   border-radius: 25px;
   border: 2px solid #4A3329;
   height: 100%;
@@ -11137,11 +11137,25 @@ html {
   transition: 0.3s;
 }
 
-#Coffee1:hover {
+#fade3 {
+  border-radius: 25px;
+  border: 2px solid #4A3329;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#fade1:hover {
   opacity: 1;
 }
 
-#Coffee2:hover {
+#fade2:hover {
+  opacity: 1;
+}
+
+#fade3:hover {
   opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */

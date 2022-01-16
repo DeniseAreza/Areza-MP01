@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="/bundles/Coffee.png">
+    <link rel="stylesheet" href="/main.css">
+    <script defer src="/javaScripts/loader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>CoffeeFave</title>
+</head>
+<body onload="loader()">
+    <!--* Loader -->
+    <div class="d-flex justify-content-center">
+        <div class="spinner-grow text-primary mt-5" role="status" id="loader" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!--* Loader -->
+
+    <!-- ! Main body of the website -->
+    <div style="display:none;" id="allContent" class="animate" >
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #fefefe;">
+            <a class="navbar-brand" href="#">CoffeeFave</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/_mainPage.html">Home</a>
+                <a class="nav-item nav-link" href="/html/_museum.html">Museum</a>
+                <a class="nav-item nav-link active" href="/html/_coffeeRecipes.html">Coffee Recipes</a>
+              </div>
+            </div>
+        </nav>
+        <!-- navbar -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron jumbotron-fluid m-5">
+            <div class="container">
+              <h1 class="display-4 text-center">Pour-Over Coffee</h1>
+            </div>
+        </div>
+
+        <div>
+            <img src="/bundles/coffee2.png" class="rounded mx-auto d-block" alt="..." style="border-radius: 25px; border: 2px solid #4A3329;">
+        </div>
+        <!-- Jumbotron -->
+
+        <!-- Coffee block -->
+        <div class="card m-5">
+          <div class="card-body">
+            <h1 class="display-4">Ingredients</h1>
+            <ul>
+              <li>
+                10 ounces (300 milliliters) filtered, distilled, or spring water
+              </li>
+              <li>
+                2/3 ounce (18 grams) medium-fine ground coffee
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card m-5">
+          <div class="card-body">
+            <h1 class="display-4">Instructions</h1>
+            <ol>
+              <li>
+                Gather the ingredients.
+              </li>
+              <li>
+                Pour hot water into the serving cup to warm it.
+              </li>
+              <li>
+                Add water to a gooseneck kettle and heat it on the stove until it reaches between 195 F and 205 F.
+              </li>
+              <li>
+                Grind coffee beans to a medium to fine ground (about the size of kosher salt or coarse sand).
+              </li>
+              <li>
+                Measure the ground coffee in the pour-over brewer.
+              </li>
+              <li>
+                When the water is heated, dump the water from the cup. Set the drip cone on the cup's rim. If using an all-in-one brewer, assemble the pieces, then measure the coffee.
+              </li>
+              <li>
+                Zero out the scale and start the timer. Beginning in the center of the coffee grounds and working your way around, pour just enough water (about 1 3/4 ounces / 50 milliliters) from the kettle to wet all of the coffee. Let it bloom and saturate the coffee for between 30 and 45 seconds.
+              </li>
+              <li>
+                With the kettle spout as close to the cone as possible, continue to slowly pour water over the bed of coffee. Work in even circles, starting in the middle and moving outwards (when the water drains, the grounds should be flat, not concave). Do not pour water onto the cone or filter, only onto the coffee. Pause as needed to let it catch up until you have poured the full 10 ounces (300 milliliters) of water.
+
+                The goal is to have a total brewing time of 3 to 4 minutes for medium roast coffee and as little as 2 1/2 to 3 minutes for a dark roast. It will continue to dip for about 30 seconds after you've added all the water.
+              </li>
+              <li>
+                Tap the cone to release the last bits of coffee, then set it on a second cup or saucer to catch any additional drips. Serve and enjoy.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <!-- Coffee block -->
+    </div>
+    <!-- ! Main body of the website -->
+    
+</body>
+</html>
